@@ -44,7 +44,6 @@ Refresh <a href="#" data-bind="click: function() { requestData({force: true}); }
             <td>
                 <div class="btn-group action-buttons" data-bind="visible: $root.loginState.isUser() && !$root.isPrinting()">
                     <div class="btn btn-mini" data-bind="click: function() { $root.showDetailsDialog($data); }" title="{{ _('Additional data') }}"><i class="icon-wrench"></i></div>
-                    <div class="btn btn-mini" data-bind="click: function() { $root.removeFile($data.id); }" title="{{ _('Remove') }}"><i class="icon-trash"></i></div>
                 </div>
             </td>
         </tr>
